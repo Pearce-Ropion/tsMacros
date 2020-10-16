@@ -1,0 +1,16 @@
+{
+  "name": "jsmacros-types",
+  "version": "1.0.0",
+  "description": "Typescript Definitions for the Minecraft Mod: JSMacros",
+  "main": "index.js",
+  "author": "Pearce Ropion <pearce@ropion.me>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "check": "npx tsc --noEmit",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
