@@ -2,7 +2,8 @@ import Functions from "../extensionBase/Functions";
 import TextHelper from "../helpers/TextHelper";
 
 declare class FChat extends Functions {
-    constructor(libName: string, excludeLangauges?: string[]);
+    constructor(libName: string);
+    constructor(libName: string, excludeLangauges: string[]);
 
     /**
      * Display the smaller title that is above the actionbar
